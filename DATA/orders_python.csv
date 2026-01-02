@@ -1,0 +1,3 @@
+﻿order_id,foodtruck_id,order_date,status,total,comentary
+1003,3,2023-09-02,entregado,110,Order processed quickly
+1004,4,2023-09-02,pendiente,85,Great service overall

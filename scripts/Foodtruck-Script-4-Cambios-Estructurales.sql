@@ -15,4 +15,7 @@ UPDATE orders
 SET comentary = 'Customer requested extra napkins'
 WHERE order_id = 1002;
 
-SELECT TOP 5 * FROM orders;
+SELECT * FROM orders;
+
+DBCC CHECKIDENT('orders');
+

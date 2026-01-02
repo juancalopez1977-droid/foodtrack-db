@@ -54,3 +54,9 @@ ROWTERMINATOR = '0x0A'
 );
 
 SELECT * FROM products;
+
+SELECT COUNT(*) FROM foodtrucks; -- 2 filas
+SELECT COUNT(*) FROM locations; --2 filas
+SELECT COUNT(*) FROM order_items; --3 filas
+SELECT COUNT(*) FROM orders; --2 filas
+
